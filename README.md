@@ -4,3 +4,5 @@ An application where one can search and add recipes, create a meal calendar, and
 - Tanya Trampp
 - Brandon Adolf
 
+### Favorite Quotes
+"Mistakes are a fact of life. It is the response to the error that counts." -- Nikki Ciovanni

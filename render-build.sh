@@ -2,9 +2,6 @@
 # exit on error
 set -o errexit
 
-# Enable globalization invariant mode to avoid missing libicu dependencies on barebones linux
-export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
-
 # Define the .NET version we want
 DOTNET_VERSION=10.0.103
 
@@ -17,6 +14,7 @@ chmod +x dotnet-install.sh
 
 # Add dotnet to PATH
 export PATH="$PATH:$PWD/dotnet"
+
 
 # Verify installation
 dotnet --version

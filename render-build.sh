@@ -27,4 +27,3 @@ export PATH="$PATH:$HOME/.dotnet/tools"
 dotnet publish src/MealSync.Web/MealSync.Web.csproj -c Release -o out
 
 # Run EF Core database migrations
-dotnet-ef database update --project src/MealSync.Infrastructure --startup-project src/MealSync.Web --context MealSync.Infrastructure.Data.MealSyncDbContext

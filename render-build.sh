@@ -14,10 +14,7 @@ chmod +x dotnet-install.sh
 
 # Add dotnet to PATH
 export PATH="$PATH:$PWD/dotnet"
-export DOTNET_ROOT="$PWD/dotnet"
 
-# Enable globalization invariant mode to avoid missing libicu dependencies on barebones linux
-export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
 
 # Verify installation
 dotnet --version

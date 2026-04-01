@@ -12,8 +12,14 @@ chmod +x dotnet-install.sh
 # Install the .NET SDK
 ./dotnet-install.sh -c 10.0 -v $DOTNET_VERSION --install-dir ./dotnet
 
-# Add dotnet to PATH
-export PATH="$PATH:$PWD/dotnet"
+<<<<<<< switch-sqlite-to-postgres-8091964807888183075
+export DOTNET_ROOT="$PWD/dotnet"
+
+# Enable globalization invariant mode to avoid missing libicu dependencies on barebones linux
+export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
+=======
+
+>>>>>>> main
 
 
 # Verify installation
